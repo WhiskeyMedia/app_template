@@ -6,6 +6,8 @@ APP_NAME=${1:?brand.sh APP_NAME}
 
 cd $(dirname $(which "$0"))
 
+test -d APP_NAME.egg-info && echo 'please remove APP_NAME.egg-info directory' && exit
+
 echo "Moving directories"
 find . -type d -name '*APP_NAME*' -not -path './.git/*' | tac | while read d
 do
