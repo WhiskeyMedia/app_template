@@ -17,6 +17,6 @@ echo "Editting files"
 find . -type f -not -name "brand.sh" -not -path './.git/*' | xargs sed -i -e "s;APP_NAME;$APP_NAME;g"
 
 echo "Removing self"
-rm "brand.sh"
+git rm "brand.sh"
 
 echo "Done"
