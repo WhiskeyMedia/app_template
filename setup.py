@@ -12,6 +12,7 @@ f.close()
 
 install_requires = [
     'Django',
+    'ella>=3.0.3',
 ]
 test_requires = [
     'nose',
