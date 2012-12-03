@@ -20,6 +20,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 SECRET_KEY = 'very-secret'
 
+SITE_ID = 1
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
