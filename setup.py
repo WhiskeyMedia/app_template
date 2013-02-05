@@ -19,9 +19,9 @@ test_requires = [
 ]
 
 setup(
-    name = 'APP_NAME',
-    description = "APP_NAME",
-    url = "https://github.com/YOU/APP_NAME/",
+    name = 'PACKAGE_NAME',
+    description = "PACKAGE_NAME",
+    url = "https://github.com/YOU/PACKAGE_NAME/",
     long_description = long_description,
     version = __versionstr__,
     author = "YOU",
