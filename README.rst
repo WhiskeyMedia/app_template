@@ -1,1 +1,1 @@
-APP_NAME whatever
+PACKAGE_NAME whatever
